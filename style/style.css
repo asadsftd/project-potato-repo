@@ -1,0 +1,58 @@
+/* Google Fornts  */
+
+.sora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+/* header styles */
+#header{
+    background:linear-gradient(
+        rgb(255, 231, 231), rgb(250, 231, 198)
+    );
+    height: auto;
+    width: 100%;
+}
+#banner-btn{
+    font-size: 25px;
+    color: white;
+    background-color: tomato;
+    padding: 5px 20px;
+    border-radius: 12px;
+}
+
+
+/* Responsive mobail  */
+@media screen and (max-width:576px) {
+    #header{
+        width: 100%;
+        margin: auto;
+    }
+    #logo-one{
+        width: 80px;
+    }
+    #nav-meno{
+        flex-direction: column;
+        display: none;
+    }
+    #banner-btn{
+        display: none;
+    }
+    #banner-title{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    #text{
+        font-size: 20px;
+        width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+    #banner-img{
+        width: 90%;
+        margin: auto;
+    }
+}
