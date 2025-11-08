@@ -41,18 +41,20 @@
         display: none;
     }
     #banner-title{
-        width: 100%;
-        margin: auto;
-        text-align: center;
+        margin-top: 40px;
     }
     #text{
         font-size: 20px;
-        width: 350px;
+        width: 250px;
         margin: auto;
         text-align: center;
+        position: relative;
+        right: 40px;
+        margin-top: 40px;
     }
     #banner-img{
         width: 90%;
         margin: auto;
+        margin-top: 40px;
     }
 }
