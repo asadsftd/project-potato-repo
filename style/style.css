@@ -7,6 +7,10 @@
   font-style: normal;
  
 }
+/* body */
+body{
+    cursor: pointer;
+}
 /* header styles */
 #header{
     background:linear-gradient(
@@ -30,6 +34,53 @@
 #banner-img{
     margin-top: 60px;
 }
+#nav-meno{
+    position: relative;
+    left: 60px;
+}
+/* Servise */
+#sr-text , #sr-dspts{
+    text-align: center;
+}
+#sr-text{
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#sr-dspts{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+}
+#sr-card-one{
+    background: linear-gradient(
+        rgb(252, 234, 200), rgb(218, 253, 253)
+    );
+    padding: 20px 0px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#sr-card-two{
+    background: linear-gradient(
+        rgb(248, 249, 186), rgb(249, 194, 231)
+    );
+    padding: 20px 0px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#sr-card-three{
+    background: linear-gradient(
+        rgb(253, 187, 187), rgb(210, 232, 151)
+    );
+    padding: 20px 0px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+
 
 /* Responsive mobail  */
 @media screen and (max-width:576px) {
@@ -61,5 +112,14 @@
         width: 90%;
         margin: auto;
         margin-top: 40px;
+    }
+    /* main */
+    #main{
+        width: 90%;
+        margin: auto;
+    }
+    /* Servise */
+    #container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
