@@ -77,6 +77,21 @@ body{
     border-radius: 12px;
     cursor: pointer;
 }
+/* products styles */
+#products{
+    background: linear-gradient(
+        rgb(255, 220, 214), rgb(251, 226, 226)
+    );
+    margin-top: 60px;
+}
+/* product */
+#p1-bg{
+    background: linear-gradient(
+        rgb(42, 241, 42), rgb(189, 245, 189)
+    );
+}
+
+
 
 
 
@@ -114,12 +129,28 @@ body{
         margin-top: 40px;
     }
     /* main */
-    #main{
+    #Services{
         width: 90%;
         margin: auto;
+        margin-top: 40px;
     }
     /* Servise */
     #container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    /* products */
+    #products{
+        margin-top: 40px;
+        height: auto;
+    }
+    #p-container{
+        flex-direction: column;
+        
+    }
+    #p1-bg{
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+        margin-top: 80px;
     }
 }
