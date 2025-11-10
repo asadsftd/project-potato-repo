@@ -183,6 +183,8 @@ body{
    }
    #card-twoimg{
     width: 90px;
+    position: relative;
+    top: 52px;
     
    }
    #padding{
