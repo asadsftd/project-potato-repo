@@ -78,7 +78,11 @@ body{
     cursor: pointer;
 }
 /* products styles */
-
+#populer-section{
+    background: linear-gradient(
+        rgb(248, 228, 191), rgb(255, 222, 217)
+    );
+}
 /* product */
 
 
@@ -106,7 +110,7 @@ body{
     }
    
     #text{
-        font-size: 20px;
+        font-size: 25px;
         width: 200px;
         margin: auto;
         text-align: center;
@@ -135,10 +139,18 @@ body{
    }
    #p-onecard{
     flex-direction: column;
+    
    }
    #populer-card-two{
     grid-template-columns: repeat(2, 1fr);
     width: 96%;
+    margin: auto;
+   }
+   #populer-conternt{
+    width: 90%;
+    margin: auto;
+   }
+   #img4{
     margin: auto;
    }
    #text-2{
@@ -151,5 +163,36 @@ body{
    }
    #flex-one{
     flex-direction: column;
+   }
+   #content{
+    flex-direction: column;
+   }
+   /* #arrival-container{
+    flex-direction: column;
+   } */
+   #card-twoimg{
+    margin: auto;
+   }
+   #arrive{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+   }
+   #img5{
+    width: 172px;
+   }
+   #card-twoimg{
+    width: 150px;
+    position: relative;
+    left: 20px;
+   }
+   #padding{
+    padding-bottom: 20px;
+   }
+   #btns{
+    font-size: 16px;
+   }
+   #title{
+    font-size: 20px;
    }
 }
