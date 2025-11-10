@@ -184,7 +184,7 @@ body{
    #card-twoimg{
     width: 90px;
     height: 250px;
-
+    width: 110px;
     
    }
    #padding{
@@ -195,5 +195,27 @@ body{
    }
    #title{
     font-size: 20px;
+   }
+   #food{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px 0px;
+   }
+   #food-text{
+    font-size: 25px;
+   }
+   #food-dspt{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 12px;
+   }
+   #food-text{
+    text-align: center;
+   }
+   #button{
+    text-align: center;
    }
 }
